@@ -6,6 +6,7 @@ This is our teamwork in OSH 2023
 王润泽
 #### Crews  
 
+陈应豪
 封霁芩
 王道宇
 王昱
