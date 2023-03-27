@@ -50,7 +50,7 @@
 |[x-runikraft](https://github.com/OSH-2022/x-runikraft)|unikernal|在RISC-V架构上运行的RUST unikernal?|
 |[x-QvQ](https://github.com/OSH-2022/x-QvQ)|树莓派内核|语言安全在内核开发中的作用|
 |[VR-fancy-office](https://github.com/OSH-2022/VR-fancy-office)|VR系统|导入 控制 操作3D文件|
-|[x-NooBirds](https://github.com/OSH-2022/x-NooBirds)|实时操作系统|做小车|
+|[x-NooBirds](https://github.com/OSH-2022/x-NooBirds)|实时操作系统|智能交通系统多个物理终端实时调度|
 |[x-realism](https://github.com/OSH-2022/x-realism)|内核|注重性能、并发和安全的微内核操作系统|
 |[x-DelayNoMore](https://github.com/OSH-2022/x-DelayNoMore)|分布式系统|基于ROS|
 |[x-TOBEDONE](https://github.com/OSH-2022/x-TOBEDONE)|分布式系统|分布式图文件系统|
@@ -77,3 +77,41 @@
 ~~Phoenixos OS~~
 
 ~~Chrome OS~~
+
+
+# ROS具体题目调研（23/03/25）
+
+
+## OSH-2022-x_do_our_best
+> 实时内核RT-Thread+ROS
+> stm32
+> 小车复杂任务+多车调度
+
+展望：
+  - 实时+Linux混合内核+ROS
+  - 分布式集群节点
+
+## OSH-2022-x_NooBirds
+> 实时Linux + 树莓派
+> 多个物理终端实时调度
+> 多种调度算法比较
+
+展望：
+  - 小车对控制命令响应的延迟
+  - 不同终端直接通信
+  - 离线调度
+
+## OSH-2022-x_DelayNoMore
+
+> ROS2+Ray 分布式计算
+
+
+## 官方文档
+[Demo](https://github.com/ros2/demos)
+
+## ？？
+- 进程通信
+
+- 计算
+
+- 硬件相关
