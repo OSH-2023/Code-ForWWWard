@@ -12,7 +12,7 @@ This is our teamwork in OSH 2023
 - [陈应豪](https://github.com//StivenKingsberg)
 ## Timelines
 
-#### 3.16会议 确定调研分工
+#### 3.16会议 题目调研分工
 - 实时操作系统：王道宇，王润泽
 - 移动操作系统：封霁芩
 - 机器人操作系统：王昱
@@ -28,3 +28,5 @@ This is our teamwork in OSH 2023
   - 智慧交通系统-plus
 
 - 下一步计划：根据三个题目分工进行项目背景、所需硬件、相关的操作系统、已有的相关项目调研
+
+#### [3.31会议](log/20230331.md) 调研报告讨论及分工
