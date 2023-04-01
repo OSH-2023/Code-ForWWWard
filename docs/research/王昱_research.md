@@ -72,3 +72,74 @@
   * **Autolabor2.5**在硬件上采用Raspberry Pi 3b开发板为核心处理单元，其提供的4个USB接口可以方便搭载各种传感器设备
 * [一个项目](https://github.com/kmakise/AGV_little_C1)
 
+# ROS2的进一步调研
+
+##  ROS2的官方文档
+
+[中文版](http://dev.ros2.fishros.com/doc/index.html)
+
+[ROS2 design](http://design.ros2.org/)
+
+* 每个**节点**负责单个模块
+
+  ![](http://dev.ros2.fishros.com/doc/_images/Nodes-TopicandService.gif)
+
+* **话题**：充当节点交换信息的总线，基于发布者-订阅者模型
+
+
+
+![](http://dev.ros2.fishros.com/doc/_images/Topic-MultiplePublisherandMultipleSubscriber.gif)
+
+* **服务**：服务基于调用和响应模型
+
+![](http://dev.ros2.fishros.com/doc/_images/Service-MultipleServiceClient.gif)
+
+* **参数**：参数是节点的配置
+* **行为**：由三部分组成，即：目标、反馈和结果。
+  * 允许执行长时间运行任务
+  * 建立在**服务**和**话题**上
+  * 可抢占
+  * 基于客户端-服务器模型，“动作客户端” 节点向 “动作服务器” 节点发送目标，该节点确认目标并返回反馈流和结果
+
+![](http://dev.ros2.fishros.com/doc/_images/Action-SingleActionClient.gif)
+
+* **客户端库**：允许使用不同编程语言编写的节点进行通信，如**rclcpp = C++客户端库 **、**rclpy = Python客户端库**
+
+***
+
+* 关于ROS2接口
+  * 通常通过**消息**、**服务**、**动作**之一的接口通信。ROS2使用接口定义语言 (IDL) 来描述这些接口，使得ROS工具轻松地以多种目标语言自动生成接口类型的源文件
+    * msg（消息）: `.msg` 文件是描述ROS消息字段的简单文本文件。它们用于为不同语言的消息生成源文件代码
+    * srv（服务）: `.srv` 文件描述了一项服务。它们由两部分组成: 请求和响应。请求和响应是消息声明
+    * 动作（action）: `.action` 文件描述动作。它们由三部分组成: 目标、结果和反馈。每个部分本身都是一个消息声明
+  * **话题**用于连续数据流，数据可以在任何时间独立于任何发送者/接收者发布和订阅
+  * **服务**用于快速终止的远程过程调用，不应该用于运行时间较长的进程，特别是，如果发生特殊情况，可能需要抢占的过程。并且它们永远不应改变或依赖于状态，以避免对其他节点产生不必要的副作用
+  * **动作**用于移动机器人或运行更长时间但在执行过程中提供反馈的任何离散行为
+
+***
+
+## ROS2与ROS1区别
+
+* [ROS2与ROS的区别](https://zhuanlan.zhihu.com/p/466267968#:~:text=ROS2%3A%20%E5%BC%95%E5%85%A5%E4%BA%86%E6%95%B0%E6%8D%AE%E5%88%86%E5%8F%91%E6%9C%8D%E5%8A%A1%EF%BC%88data%20distribution,service%EF%BC%8C%20DDS%EF%BC%89%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BB%A5%E9%9B%B6%E6%8B%B7%E8%B4%9D%E7%9A%84%E6%96%B9%E5%BC%8F%E4%BC%A0%E9%80%92%E6%B6%88%E6%81%AF%EF%BC%8C%E8%8A%82%E7%9C%81%E4%BA%86CPU%E5%92%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%EF%BC%8C%E5%90%8C%E6%97%B6%E5%A2%9E%E5%8A%A0%E9%80%9A%E8%AE%AF%E7%9A%84%E5%AE%9E%E6%97%B6%E6%80%A7%EF%BC%9B%20%E5%90%84%E4%B8%AA%E8%8A%82%E7%82%B9%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E9%80%9A%E8%BF%87DDS%E8%BF%9B%E8%A1%8C%E8%8A%82%E7%82%B9%E9%80%9A%E8%AE%AF%EF%BC%8C%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E9%83%BD%E6%98%AF%E5%B9%B3%E7%AD%89%E7%9A%84%EF%BC%8C%E5%8F%AF%E4%BB%A51%E5%AF%B91%E3%80%811%E5%AF%B9%E5%A4%9A%EF%BC%8C%E5%A4%9A%E5%AF%B9%E5%A4%9A%E8%BF%9B%E8%A1%8C%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1%E3%80%82)
+
+## ROS2通信的优化
+
+[鱼香社区](https://fishros.org.cn/forum/category/22/ros2) 
+
+* [ROS节点间实现零拷贝通信](https://fishros.org.cn/forum/topic/494/ros2%E8%8A%82%E7%82%B9%E9%80%9A%E4%BF%A1%E5%AE%9E%E7%8E%B0%E9%9B%B6%E6%8B%B7%E8%B4%9D)
+  * [简单易懂的零拷贝通信原理](https://zhuanlan.zhihu.com/p/447890038)
+
+# 项目调研
+
+## 对2019项目的调研
+
+* 网卡：网络接口卡（network interface card），也叫NIC卡，是一种允许网络连接的计算机硬件设备。指能使计算机和服务器等网络设备相互连接的电路板。
+  * 构造
+    * **控制器**：用来处理接收到的数据
+    * **boot ROM槽**：boot ROM可使无磁盘工作站连接到网络，在提高安全性的同时降低硬件成本
+    * **网卡端口**：该端口直接与以太网线或光模块连接，产生和接收网线或光纤跳线上的电信号。
+    * **总线接口**
+* 沙盒(sandbox)：为运行中的程序提供的隔离环境。通常是作为一些**来源不可信、具破坏力或无法判定程序意图的程序**提供实验之用。Windows 沙盒提供了轻型桌面环境，可以安全地在隔离状态下运行应用程序。
+* [eBPF简介](https://ebpf.io/what-is-ebpf/)
+
+### **未完待续**
