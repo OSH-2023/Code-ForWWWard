@@ -155,3 +155,69 @@
     > 紧急事件
     > 拼车载客路线/公共交通
 
+
+# 调研报告内容整理-Part2&4 （23/04/03）
+
+查询数据传输至cache的指令以及支持的cpu型号
+
+硬件支持+操作系统
+## 指令及CPU型号
+**TO BE DONE**
+## 硬件支持+操作系统
+### 上位机(运行平台)
+[一个整合了相关硬件的教程网站-微雪课堂](https://www.waveshare.net/study/portal.php)
+
+- 虚拟机
+  - 考验电脑性能
+- 树莓派
+  - 简介：它是一款基于ARM的微型电脑主板，以SD/MicroSD卡为内存硬盘，卡片主板周围有1/2/4个USB接口和一个10/100 以太网接口（A型没有网口），可连接键盘、鼠标和网线，同时拥有视频模拟信号的电视输出接口和HDMI高清视频输出接口，以上部件全部整合在一张仅比信用卡稍大的主板上，具备所有PC的基本功能
+  - [可运行的Ubuntu操作系统](https://ubuntu.com/download/raspberry-pi)
+  > Ubunto XXX 22.04
+  - CPU型号： Broadcom BCM2711，四核Cortex-A72（ARM v8）64位SoC @ 1.5GHz
+- Jetson Nano
+  - 简介： 是NVIDIA 公司研发的基于 GPU处理器的嵌入式开发板，支持目前TensorFlow，Caffe/Caffer2,PyTorch,keras 等流行的 AI 框架和算法
+  - 预装Ubuntu 18.04LTS系统,有安装20.04的[教程](https://qengineering.eu/install-ubuntu-20.04-on-jetson-nano.html)
+  - CPU型号：四核ARM Cortex-A57 MPCore处理器@ 1.43GHz
+
+- 比较
+  - 算力：树莓派< Jetson Nano
+  - 价格相当
+
+### 下位机(控制对象):视具体项目决定
+- STM32
+- Arduino:入门快，难度较小
+
+### 操作系统 
+
+ROS目前只能在基于Unix的平台上运行。ROS的软件主要在Ubuntu和Mac OS X 系统上测试，同时ROS社区仍持续支持Fedora，Gentoo，Arch Linux和其它Linux平台。
+
+#### ROS版本
+
+- ROS1
+  - ~~MELODIC MORENIA~~
+    - 支持到2023/05
+    - 推荐OS:Ubuntu 18.04
+  - NOETIC NINJEMYS(Recommended)
+    - 支持到2025/05
+    - Ubuntu Linux - Focal (20.04)
+    - Debian Linux - Buster (10)
+- ROS2
+  - ~~FOXY FITZROY~~
+  - HUMBLE HAWKSBILL(Recommended)
+    - [安装教程](https://docs.ros.org/en/humble/Installation.html)
+    - Ubuntu Linux - Jammy (22.04) 64-bit
+    - Ubuntu Linux - Focal (20.04) 64-bit
+    - Debian Linux - Bullseye (11) 64-bit
+    - Win10 VS2019
+    - RHEL 8 64-bit
+    - macOS Mojave (10.14)
+  - ROLLING RIDLEY(In Development)
+    - Ubuntu Linux - Jammy (22.04) 64-bit
+    - Win10 VS2019
+    - RHEL 8 64-bit
+
+## 参考资料
+- [ROS不同版本官方文档](http://docs.ros.org/)
+- [](https://blog.csdn.net/qq_44275286/article/details/101944058)
+- [](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-nano/education-projects/)
+- [ros智能小车硬件介绍](https://blog.csdn.net/baidu_23831861/article/details/109112614?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-109112614-blog-127877337.235%5Ev27%5Epc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-109112614-blog-127877337.235%5Ev27%5Epc_relevant_multi_platform_whitelistv3&utm_relevant_index=6)
