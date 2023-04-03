@@ -121,6 +121,21 @@
 ## ROS2与ROS1区别
 
 * [ROS2与ROS的区别](https://zhuanlan.zhihu.com/p/466267968#:~:text=ROS2%3A%20%E5%BC%95%E5%85%A5%E4%BA%86%E6%95%B0%E6%8D%AE%E5%88%86%E5%8F%91%E6%9C%8D%E5%8A%A1%EF%BC%88data%20distribution,service%EF%BC%8C%20DDS%EF%BC%89%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BB%A5%E9%9B%B6%E6%8B%B7%E8%B4%9D%E7%9A%84%E6%96%B9%E5%BC%8F%E4%BC%A0%E9%80%92%E6%B6%88%E6%81%AF%EF%BC%8C%E8%8A%82%E7%9C%81%E4%BA%86CPU%E5%92%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%EF%BC%8C%E5%90%8C%E6%97%B6%E5%A2%9E%E5%8A%A0%E9%80%9A%E8%AE%AF%E7%9A%84%E5%AE%9E%E6%97%B6%E6%80%A7%EF%BC%9B%20%E5%90%84%E4%B8%AA%E8%8A%82%E7%82%B9%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E9%80%9A%E8%BF%87DDS%E8%BF%9B%E8%A1%8C%E8%8A%82%E7%82%B9%E9%80%9A%E8%AE%AF%EF%BC%8C%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E9%83%BD%E6%98%AF%E5%B9%B3%E7%AD%89%E7%9A%84%EF%BC%8C%E5%8F%AF%E4%BB%A51%E5%AF%B91%E3%80%811%E5%AF%B9%E5%A4%9A%EF%BC%8C%E5%A4%9A%E5%AF%B9%E5%A4%9A%E8%BF%9B%E8%A1%8C%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1%E3%80%82)
+* [ROS2的动机与设计](https://www.science.org/doi/10.1126/scirobotics.abm6074)
+* **来自某论文**
+
+| **类别**         |          **ROS 1**          |                **ROS 2**                |
+| :--------------- | :-------------------------: | :-------------------------------------: |
+| **网络传输**     | 基于 TCP/UDP 构建的定制协议 | 现有标准 （DDS）， 抽象支持添加其他标准 |
+| **网络架构**     |  中央名称服务器（roscore）  |               点对点发现                |
+| **平台支持**     |          Linux目录          |         Linux、Windows 和 macOS         |
+| **客户端库**     |     以每种语言独立编写      |         共享公共基础C库 （rcl）         |
+| **节点与进程**   |      每个进程一个节点       |            每个进程多个节点             |
+| **线程模型**     |     回调队列和处理程序      |              可交换执行器               |
+| **节点状态管理** |            没有             |              生命周期节点               |
+| **嵌入式系统**   | 最少的实验支持（rosserial） |        商业支持的实施 （微 ROS）        |
+| **参数访问**     | 基于 XMLRPC 构建的辅助协议  |            使用服务调用实现             |
+| **参数类型**     |      分配时推断的类型       |          声明和强制执行的类型           |
 
 ## ROS2通信的优化
 
@@ -128,6 +143,21 @@
 
 * [ROS节点间实现零拷贝通信](https://fishros.org.cn/forum/topic/494/ros2%E8%8A%82%E7%82%B9%E9%80%9A%E4%BF%A1%E5%AE%9E%E7%8E%B0%E9%9B%B6%E6%8B%B7%E8%B4%9D)
   * [简单易懂的零拷贝通信原理](https://zhuanlan.zhihu.com/p/447890038)
+
+## 实时性
+
+[2016年的article](http://design.ros2.org/articles/realtime_background.html)
+
+* 实时计算的定义需要定义其他几个关键术语：
+  * **确定性**：如果系统始终为已知输入产生相同的输出，则系统是确定性的。 非确定性系统的输出将具有随机变化。
+  * **截止日期**：截止日期是必须完成某项任务的有限时间窗口。
+  * **服务质量**：网络的整体性能。 包括带宽、吞吐量、可用性、抖动、延迟和错误率等因素。
+
+* 实时环境的一些示例：
+  * Linux 内核补丁，将 Linux 调度程序修改为完全抢占。`RT_PREEMPT`
+  * Xenomai，一个符合POSIX的协内核（或虚拟机监控程序），提供与Linux内核协作的实时内核。 Linux 内核被视为实时内核调度程序的空闲任务（优先级最低的任务）。
+  * RTAI，一种替代的协内核解决方案。
+  * QNX Neutrino，一款符合 POSIX 标准的实时操作系统，适用于关键任务系统。
 
 # 项目调研
 
