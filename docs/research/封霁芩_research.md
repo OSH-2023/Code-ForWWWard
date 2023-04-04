@@ -162,8 +162,20 @@
 
 硬件支持+操作系统
 ## 指令及CPU型号
-**TO BE DONE**
+
+> 网卡与操作系统的交互一般有两种方式:
+> 一种是中断（IRQ，网卡在收到了网络信号之后，主动发送中断到CPU，而CPU将会立即停下手边的活以便对这个中断信号进行分析），
+另一种叫DMA（Direct Memory Access, 也就是允许硬件在无CPU干预的情况下将数据缓存在指定的内存空间内，在CPU合适的时候才处理）
+### linux--网卡
+- `ifconfig`:手动启动、观察与修改网络接口的相关参数
+- `ifup`/`ifdown`:搜索设置文件（ifcfg-ethx）来进行启动与关闭网络接口的相关参数
+
+### linux--DMA
+- [API](https://zhuanlan.zhihu.com/p/496060255)
+
 ## 硬件支持+操作系统
+
+### 网卡
 ### 上位机(运行平台)
 [一个整合了相关硬件的教程网站-微雪课堂](https://www.waveshare.net/study/portal.php)
 
@@ -218,6 +230,9 @@ ROS目前只能在基于Unix的平台上运行。ROS的软件主要在Ubuntu和M
 
 ## 参考资料
 - [ROS不同版本官方文档](http://docs.ros.org/)
-- [](https://blog.csdn.net/qq_44275286/article/details/101944058)
-- [](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-nano/education-projects/)
+- [ROS小车：硬件和软件介绍](https://blog.csdn.net/qq_44275286/article/details/101944058)
+- [JetsonNano性能参数](https://www.nvidia.cn/autonomous-machines/embedded-systems/jetson-nano/education-projects/)
 - [ros智能小车硬件介绍](https://blog.csdn.net/baidu_23831861/article/details/109112614?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-109112614-blog-127877337.235%5Ev27%5Epc_relevant_multi_platform_whitelistv3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-3-109112614-blog-127877337.235%5Ev27%5Epc_relevant_multi_platform_whitelistv3&utm_relevant_index=6)
+- [linux网口设置指令](https://blog.csdn.net/lu_embedded/article/details/53215324)
+- [网卡中断与CPU绑定](https://www.cnblogs.com/bamanzi/p/linux-irq-and-cpu-affinity.html)
+- [linux DMA API 使用指导](https://zhuanlan.zhihu.com/p/496060255)
