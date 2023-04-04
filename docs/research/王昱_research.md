@@ -103,7 +103,7 @@
 
 ![](http://dev.ros2.fishros.com/doc/_images/Action-SingleActionClient.gif)
 
-* **客户端库**：允许使用不同编程语言编写的节点进行通信，如**rclcpp = C++客户端库 **、**rclpy = Python客户端库**
+* **客户端库**：允许使用不同编程语言编写的节点进行通信，如**rclcpp = C++客户端库** 	**rclpy = Python客户端库**
 
 ***
 
