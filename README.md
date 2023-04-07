@@ -6,44 +6,44 @@ This is our teamwork in OSH 2023
 
 #### Leader
 
-- [çŽ‹æ¶¦æ³½](https://github.com//spark0685)
+- [ÍõÈóÔó](https://github.com//spark0685)
   
 #### Crews
 
-- [å°éœèŠ©](https://github.com//SMGJ222)
+- [·âö«ÜË](https://github.com//SMGJ222)
 
-- [çŽ‹é“å®‡](https://github.com//Melmaphother)
+- [ÍõµÀÓî](https://github.com//Melmaphother)
 
-- [çŽ‹æ˜±](https://github.com//Wloner0809)  
+- [ÍõêÅ](https://github.com//Wloner0809)  
 
-- [é™ˆåº”è±ª](https://github.com//StivenKingsberg)
+- [³ÂÓ¦ºÀ](https://github.com//StivenKingsberg)
   
 ## Timelines
 
-#### 3.16ä¼šè®® é¢˜ç›®è°ƒç ”åˆ†å·¥
+#### 3.16»áÒé ÌâÄ¿µ÷ÑÐ·Ö¹¤
 
-- å®žæ—¶æ“ä½œç³»ç»Ÿï¼šçŽ‹é“å®‡ï¼ŒçŽ‹æ¶¦æ³½
-- ç§»åŠ¨æ“ä½œç³»ç»Ÿï¼šå°éœèŠ©
-- æœºå™¨äººæ“ä½œç³»ç»Ÿï¼šçŽ‹æ˜±
-- å†…å­˜ç®¡ç†/è™šæ‹ŸåŒ–ï¼šé™ˆåº”è±ª
+- ÊµÊ±²Ù×÷ÏµÍ³£ºÍõµÀÓî£¬ÍõÈóÔó
+- ÒÆ¶¯²Ù×÷ÏµÍ³£º·âö«ÜË
+- »úÆ÷ÈË²Ù×÷ÏµÍ³£ºÍõêÅ
+- ÄÚ´æ¹ÜÀí/ÐéÄâ»¯£º³ÂÓ¦ºÀ
 
-#### 3.18çº¿ä¸Šè®¨è®º
+#### 3.18ÏßÉÏÌÖÂÛ
 
-ç»¼åˆå°ç»„æˆå‘˜è°ƒç ”ç»“æžœï¼Œåˆå®šé€‰é¢˜æ–¹å‘ä¸ºæœºå™¨äººæ“ä½œç³»ç»ŸROS
+×ÛºÏÐ¡×é³ÉÔ±µ÷ÑÐ½á¹û£¬³õ¶¨Ñ¡Ìâ·½ÏòÎª»úÆ÷ÈË²Ù×÷ÏµÍ³ROS
 
-#### 3.27ä¼šè®®
+#### 3.27»áÒé
 
-- è®¨è®ºå‡ºä¸‰ä¸ªå¯è¡Œçš„é¢˜ç›®
+- ÌÖÂÛ³öÈý¸ö¿ÉÐÐµÄÌâÄ¿
   
-  - æ— äººæœºé›†ç¾¤è°ƒåº¦
-  - æ··åˆå†…æ ¸
-  - æ™ºæ…§äº¤é€šç³»ç»Ÿ-plus
+  - ÎÞÈË»ú¼¯Èºµ÷¶È
+  - »ìºÏÄÚºË
+  - ÖÇ»Û½»Í¨ÏµÍ³-plus
 
-- ä¸‹ä¸€æ­¥è®¡åˆ’ï¼šæ ¹æ®ä¸‰ä¸ªé¢˜ç›®åˆ†å·¥è¿›è¡Œé¡¹ç›®èƒŒæ™¯ã€æ‰€éœ€ç¡¬ä»¶ã€ç›¸å…³çš„æ“ä½œç³»ç»Ÿã€å·²æœ‰çš„ç›¸å…³é¡¹ç›®è°ƒç ”
+- ÏÂÒ»²½¼Æ»®£º¸ù¾ÝÈý¸öÌâÄ¿·Ö¹¤½øÐÐÏîÄ¿±³¾°¡¢ËùÐèÓ²¼þ¡¢Ïà¹ØµÄ²Ù×÷ÏµÍ³¡¢ÒÑÓÐµÄÏà¹ØÏîÄ¿µ÷ÑÐ
 
-#### [3.31ä¼šè®®](log/2023%E5%B9%B403%E6%9C%8831%E6%97%A5%E9%9B%86%E4%BD%93%E8%B0%83%E7%A0%94%E8%AE%B0%E5%BD%95.md)   è°ƒç ”æŠ¥å‘Šè®¨è®ºåŠåˆ†å·¥
+#### [3.31»áÒé](log/2023%E5%B9%B403%E6%9C%8831%E6%97%A5%E9%9B%86%E4%BD%93%E8%B0%83%E7%A0%94%E8%AE%B0%E5%BD%95.md)   µ÷ÑÐ±¨¸æÌÖÂÛ¼°·Ö¹¤
 
-####  [4.4ä¼šè®®](log/2023å¹´04æœˆ04æ—¥é›†ä½“è°ƒç ”è®°å½•.md)	è°ƒç ”è¿›æ­¥çš„æ±‡æŠ¥ä¸Žè°ƒç ”æŠ¥å‘Šçš„åˆç¨¿
+####  [4.4»áÒé](log/2023Äê04ÔÂ04ÈÕ¼¯Ìåµ÷ÑÐ¼ÇÂ¼.md)	µ÷ÑÐ½ø²½µÄ»ã±¨Óëµ÷ÑÐ±¨¸æµÄ³õ¸å
 
 
 
