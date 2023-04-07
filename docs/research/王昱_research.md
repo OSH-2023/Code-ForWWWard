@@ -122,6 +122,7 @@
 
 * [ROS2与ROS的区别](https://zhuanlan.zhihu.com/p/466267968#:~:text=ROS2%3A%20%E5%BC%95%E5%85%A5%E4%BA%86%E6%95%B0%E6%8D%AE%E5%88%86%E5%8F%91%E6%9C%8D%E5%8A%A1%EF%BC%88data%20distribution,service%EF%BC%8C%20DDS%EF%BC%89%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BB%A5%E9%9B%B6%E6%8B%B7%E8%B4%9D%E7%9A%84%E6%96%B9%E5%BC%8F%E4%BC%A0%E9%80%92%E6%B6%88%E6%81%AF%EF%BC%8C%E8%8A%82%E7%9C%81%E4%BA%86CPU%E5%92%8C%E5%86%85%E5%AD%98%E8%B5%84%E6%BA%90%EF%BC%8C%E5%90%8C%E6%97%B6%E5%A2%9E%E5%8A%A0%E9%80%9A%E8%AE%AF%E7%9A%84%E5%AE%9E%E6%97%B6%E6%80%A7%EF%BC%9B%20%E5%90%84%E4%B8%AA%E8%8A%82%E7%82%B9%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E9%80%9A%E8%BF%87DDS%E8%BF%9B%E8%A1%8C%E8%8A%82%E7%82%B9%E9%80%9A%E8%AE%AF%EF%BC%8C%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E9%83%BD%E6%98%AF%E5%B9%B3%E7%AD%89%E7%9A%84%EF%BC%8C%E5%8F%AF%E4%BB%A51%E5%AF%B91%E3%80%811%E5%AF%B9%E5%A4%9A%EF%BC%8C%E5%A4%9A%E5%AF%B9%E5%A4%9A%E8%BF%9B%E8%A1%8C%E4%BA%92%E7%9B%B8%E9%80%9A%E4%BF%A1%E3%80%82)
 * [ROS2的动机与设计](https://www.science.org/doi/10.1126/scirobotics.abm6074)
+* [ROS2的机制、优势](https://zhuanlan.zhihu.com/p/398213486)
 * **来自某论文**
 
 | **类别**         |          **ROS 1**          |                **ROS 2**                |
@@ -143,6 +144,7 @@
 
 * [ROS节点间实现零拷贝通信](https://fishros.org.cn/forum/topic/494/ros2%E8%8A%82%E7%82%B9%E9%80%9A%E4%BF%A1%E5%AE%9E%E7%8E%B0%E9%9B%B6%E6%8B%B7%E8%B4%9D)
   * [简单易懂的零拷贝通信原理](https://zhuanlan.zhihu.com/p/447890038)
+* [ROS2调度策略](https://zhuanlan.zhihu.com/p/404067881)
 
 ## 实时性
 
