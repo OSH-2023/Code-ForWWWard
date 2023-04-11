@@ -7,7 +7,7 @@ This is our teamwork in OSH 2023
 #### Leader
 
 - [王润泽](https://github.com//spark0685)
-  
+
 #### Crews
 
 - [封霁芩](https://github.com//SMGJ222)
@@ -17,7 +17,7 @@ This is our teamwork in OSH 2023
 - [王昱](https://github.com//Wloner0809)  
 
 - [陈应豪](https://github.com//StivenKingsberg)
-  
+
 ## Timelines
 
 #### 3.16会议 题目调研分工
@@ -43,7 +43,6 @@ This is our teamwork in OSH 2023
 
 #### [3.31会议](log/2023%E5%B9%B403%E6%9C%8831%E6%97%A5%E9%9B%86%E4%BD%93%E8%B0%83%E7%A0%94%E8%AE%B0%E5%BD%95.md)   调研报告讨论及分工
 
-####  [4.4会议](log/2023年04月04日集体调研记录.md)	调研进步的汇报与调研报告的初稿
-
+#### [4.4会议](log/2023年04月04日集体调研记录.md)    调研进步的汇报与调研报告的初稿
 
 #### [4.7会议](log/2023%E5%B9%B404%E6%9C%8807%E6%97%A5%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95.md) 调研报告修改分工
