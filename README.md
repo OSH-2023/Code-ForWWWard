@@ -50,3 +50,5 @@ This is our teamwork in OSH 2023
 #### [4.11会议](log/4%E6%9C%8811%E6%97%A5%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95.md)
 
 #### [4.14会议](log/4%E6%9C%8814%E6%97%A5%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95.md)
+
+#### [4.18会议](log/4%E6%9C%8818%E6%97%A5%E4%BC%9A%E8%AE%AE%E8%AE%B0%E5%BD%95.md)
