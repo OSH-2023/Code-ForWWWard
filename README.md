@@ -4,7 +4,7 @@ This is our teamwork in OSH 2023
 
 ## our logo
 
-![](docs/research/image/logo.png)
+<img src="docs/research/image/logo.png" title="" alt="" width="350">
 
 ## Introduction to our team
 
