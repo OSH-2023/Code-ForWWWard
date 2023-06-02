@@ -1,9 +1,5 @@
 ## 选题？
-Ceph相关（分布式存储）还是Ray相关（分布式计算）
-## Ceph
-Ceph 自带测试模块，可以直接使用。
-往届有做Ceph相关的：
-- https://github.com/OSH-2022/x-realism/tree/main/_Lab4
+Ray相关
 ## Ray
 感觉文档写的很好看：https://docs.ray.io/en/latest/index.html
 Ray 需要自行设计测试过程，可以参考其自带少部分样例。亦可选择其他第三方测试工具。
