@@ -23,7 +23,6 @@ plasma_directory: 设置Plasma对象存储的目录。
 num_workers: 设置启动的Ray worker的数量。
 object_timeout_milliseconds: 设置对象的超时时间。
 
-
 # 程序中可能影响性能的误区
 
 [误区](https://blog.csdn.net/zkh880loLh3h21AJTH/article/details/91410217)
