@@ -89,6 +89,24 @@ To monitor and debug Ray, view the dashboard at
 
 在浏览器中输入该地址即可查看dashboard
 
+### Docker部署
+#### 安装Docker
+```bash
+$   curl -fsSL https://test.docker.com -o test-docker.sh
+$   sudo sh test-docker.sh
+```
+#### 安装ray环境
+
+```bash
+$   docker pull rayproject/ray
+```
+
+#### 运行docker
+```bash
+$   docker run --shm-size=4G -tip 8265:8265 -p 3000:3000 -p 9000:9000 -p 6379:6379 rayproject/ray
+```
+运行后用户提示符变为`ray@xxxx`,开启ray主节点如下图：
+![](./pic/docker.png)
 
 ## 代码部分
 
