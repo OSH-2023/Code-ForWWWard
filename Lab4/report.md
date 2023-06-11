@@ -111,7 +111,7 @@ def matrix_multiply1():
 ```python
 import numpy as np
 import time
-iimport ray
+import ray
 
 ray.init()
 
