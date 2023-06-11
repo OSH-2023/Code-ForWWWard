@@ -1,6 +1,6 @@
 import numpy as np
 import time
-import ray
+iimport ray
 
 ray.init()
 
