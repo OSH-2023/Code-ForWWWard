@@ -5,7 +5,7 @@ import random
 start = time.time()
 
 # 初始化Ray
-ray.init(num_cpus=4)
+ray.init(num_cpus=2)
 
 # 定义一个在Ray上运行的并行函数
 @ray.remote
@@ -19,7 +19,7 @@ def monte_carlo():
 if __name__ == "__main__":
     
     #取点个数
-    n=10000
+    n=1000
 
     results = ray.get([monte_carlo.remote() for x in range(1,n)])
 
