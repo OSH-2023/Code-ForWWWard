@@ -215,3 +215,6 @@ print("Time taken: {:.2f} seconds".format(end_time - start_time),"\n")
 #### 结论
 
 可以看到，在多节点的情况下，无论是`CPU`使用率还是同一个任务的运行时间都有不同程度的减小。特别是同一个任务的运行时间，多节点的情况下，该指标从`31.50s`减小到`2.90s`。
+
+### 发布
+报告发布在https://zhuanlan.zhihu.com/p/636247854
