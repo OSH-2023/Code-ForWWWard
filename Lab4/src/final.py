@@ -20,7 +20,7 @@ def matrix_multiply2():
 
 #使用远程函数计算矩阵乘积
 start_time = time.time()
-results = [matrix_multiply1() for _ in range(1000)]
+results = [matrix_multiply1() for _ in range(100)]
 
 end_time = time.time()
 print("Time taken: {:.2f} seconds".format(end_time - start_time),"\n")
@@ -28,7 +28,7 @@ print("Time taken: {:.2f} seconds".format(end_time - start_time),"\n")
 
 ###################
 start_time = time.time()
-results = ray.get([matrix_multiply2.remote() for _ in range(1000)])
+results = ray.get([matrix_multiply2.remote() for _ in range(100)])
 
 end_time = time.time()
 print("Time taken: {:.2f} seconds".format(end_time - start_time),"\n")
