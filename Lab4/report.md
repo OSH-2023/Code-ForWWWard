@@ -5,7 +5,7 @@
 
 操作系统:Linux Ubuntu
 
-###　Step1: 安装anaconda/miniconda
+### Step1: 安装anaconda/miniconda
 
 为保证使用环境一致、方便包管理及安装依赖项,我们先安装环境管理软件anaconda/miniconda,并创建运行ray的新环境。
 
