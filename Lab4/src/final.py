@@ -1,6 +1,6 @@
 import numpy as np
 import time
-iimport ray
+import ray
 
 ray.init()
 
@@ -11,7 +11,7 @@ def matrix_multiply1():
     return 0
 
 
-@ray.remote(num_cpus=16)
+@ray.remote(num_cpus=8)
 def matrix_multiply2():
     A = np.random.randint(0,1000,1000000)
     A = A.reshape(1000, 1000)
