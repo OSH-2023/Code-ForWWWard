@@ -89,6 +89,24 @@ To monitor and debug Ray, view the dashboard at
 
 在浏览器中输入该地址即可查看dashboard
 
+### Docker部署
+#### 安装Docker
+```bash
+$   curl -fsSL https://test.docker.com -o test-docker.sh
+$   sudo sh test-docker.sh
+```
+#### 安装ray环境
+
+```bash
+$   docker pull rayproject/ray
+```
+
+#### 运行docker
+```bash
+$   docker run --shm-size=4G -tip 8265:8265 -p 3000:3000 -p 9000:9000 -p 6379:6379 rayproject/ray
+```
+运行后用户提示符变为`ray@xxxx`,开启ray主节点如下图：
+![](./pic/docker.png)
 
 ## 代码部分
 
@@ -197,3 +215,6 @@ print("Time taken: {:.2f} seconds".format(end_time - start_time),"\n")
 #### 结论
 
 可以看到，在多节点的情况下，无论是`CPU`使用率还是同一个任务的运行时间都有不同程度的减小。特别是同一个任务的运行时间，多节点的情况下，该指标从`31.50s`减小到`2.90s`。
+
+### 发布
+报告发布在https://zhuanlan.zhihu.com/p/636247854
