@@ -48,3 +48,10 @@ AddTwoMatrix.srv内容如下：
     ```
         from my_interfaces.srv import AddTwoMatrix
     ```
+
+编译、运行过程同[1_创建ros2工作区以及运行简单程序](./1_创建ros2工作区以及运行简单程序.md)
+
+(service中每行输出`a[i] b[i]`，client中每行输出`result[i] result[i]-a[i]-b[i]`)
+
+![](./image/单机-服务.png)
+
