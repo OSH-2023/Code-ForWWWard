@@ -32,7 +32,7 @@
     ros2 run ros2_shm_demo iox-roudi
     ```
     
-    ![](pic/iox-roudi.png)
+    ![](image/iox-roudi.png)
   
   - 在第二个窗口运行`talker`：
     
@@ -46,7 +46,7 @@
     ros2 run ros2_shm_demo listener
     ```
     
-    ![](pic/listener_and_talker.png)
+    ![](image/listener_and_talker.png)
   
   - 在第四个窗口运行进程通信监视器：
     
@@ -69,14 +69,12 @@
     
     - 监视器中`Processes`部分`talker`和`listener`的`introspection`进程ID应该相同：
       
-      ![](pic/Processes部分.png)
+      ![](image/Processes部分.png)
     
     - `MemPool`中`Chunk Payload Size`，即块使用数量将会上升：
       
-      ![](pic/Chunksize.png)
+      ![](image/Chunksize.png)
     
     - 同时Min Free（剩余共享内存量）将会单调递减
       
       由上图可以看出。
-
-
