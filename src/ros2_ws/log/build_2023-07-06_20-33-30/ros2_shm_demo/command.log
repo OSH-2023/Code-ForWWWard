@@ -1,2 +1,0 @@
-Invoking command in '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo': /usr/bin/cmake /home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo -DCMAKE_INSTALL_PREFIX=/home/melmaphother/ROS2/ros2_ws/install/ros2_shm_demo
-Invoked command in '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo' returned '1': /usr/bin/cmake /home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo -DCMAKE_INSTALL_PREFIX=/home/melmaphother/ROS2/ros2_ws/install/ros2_shm_demo
