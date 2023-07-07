@@ -1,0 +1,70 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_generator_c[0m
+[  2%] Built target ros2_shm_demo__cpp
+[ 10%] Built target ros2_shm_demo__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_ros2_shm_demo
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_shm_demo__rosidl_typesupport_introspection_c[0m
+[ 18%] Built target ros2_shm_demo__rosidl_typesupport_cpp
+[ 27%] Built target ros2_shm_demo__rosidl_typesupport_fastrtps_cpp
+[ 35%] Built target ros2_shm_demo__rosidl_typesupport_introspection_cpp
+[ 43%] Built target ros2_shm_demo__rosidl_typesupport_c
+[ 51%] Built target ros2_shm_demo__rosidl_typesupport_introspection_c
+[ 59%] Built target ros2_shm_demo__rosidl_typesupport_fastrtps_c
+[ 59%] Built target ros2_shm_demo
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 62%] Built target ros2_shm_demo__py
+[ 64%] [32mBuilding CXX object CMakeFiles/iox_subscriber.dir/src/iox_subscriber.cpp.o[0m
+[ 70%] Built target talker
+[ 75%] Built target listener
+[ 78%] [32mBuilding C object CMakeFiles/ros2_shm_demo__rosidl_generator_py.dir/rosidl_generator_py/ros2_shm_demo/msg/_shm_topic_s.c.o[0m
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/ros2_shm_demo/libros2_shm_demo__rosidl_generator_py.so[0m
+[ 81%] Built target ros2_shm_demo__rosidl_generator_py
+[ 86%] [32mBuilding C object CMakeFiles/ros2_shm_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_shm_demo/_ros2_shm_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/ros2_shm_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_shm_demo/_ros2_shm_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/ros2_shm_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_shm_demo/_ros2_shm_demo_s.ep.rosidl_typesupport_c.c.o[0m
+running egg_info
+writing ros2_shm_demo.egg-info/PKG-INFO
+writing dependency_links to ros2_shm_demo.egg-info/dependency_links.txt
+writing top-level names to ros2_shm_demo.egg-info/top_level.txt
+reading manifest file 'ros2_shm_demo.egg-info/SOURCES.txt'
+writing manifest file 'ros2_shm_demo.egg-info/SOURCES.txt'
+[ 89%] Built target ament_cmake_python_build_ros2_shm_demo_egg
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/ros2_shm_demo/ros2_shm_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/ros2_shm_demo/ros2_shm_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_shm_demo/ros2_shm_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target ros2_shm_demo__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target ros2_shm_demo__rosidl_typesupport_c__pyext
+[ 97%] Built target ros2_shm_demo__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:33:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool shutdown[m[K’ redeclared as different kind of entity
+   33 | bool [01;31m[Kshutdown[m[K = false;
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/iceoryx/v/iceoryx_platform/socket.hpp:21[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_hoofs/internal/posix_wrapper/unix_domain_socket.hpp:24[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/internal/runtime/ipc_interface_base.hpp:35[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/internal/runtime/ipc_interface_creator.hpp:22[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/internal/runtime/ipc_runtime_interface.hpp:21[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/runtime/posh_runtime.hpp:28[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/popo/wait_set.hpp:29[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/internal/popo/base_subscriber.hpp:25[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/internal/popo/untyped_subscriber_impl.hpp:23[m[K,
+                 from [01m[K/usr/local/include/iceoryx/v/iceoryx_posh/popo/untyped_subscriber.hpp:21[m[K,
+                 from [01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:17[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/sys/socket.h:324:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint shutdown(int, int)[m[K’
+  324 | extern int [01;36m[Kshutdown[m[K (int __fd, int __how) __THROW;
+      |            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:[m[K In function ‘[01m[Kvoid sigHandler(int)[m[K’:
+[01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:38:12:[m[K [01;31m[Kerror: [m[Kassignment of function ‘[01m[Kint shutdown(int, int)[m[K’
+   38 |   [01;31m[Kshutdown = true[m[K;
+      |   [01;31m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:67:11:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kint shutdown(int, int)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   67 |   while (![01;35m[Kshutdown[m[K) {
+      |           [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/iox_subscriber.dir/build.make:76：CMakeFiles/iox_subscriber.dir/src/iox_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:654：CMakeFiles/iox_subscriber.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

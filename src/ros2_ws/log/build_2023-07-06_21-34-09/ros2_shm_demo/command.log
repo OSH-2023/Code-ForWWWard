@@ -1,0 +1,4 @@
+Invoking command in '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo -- -j20 -l20
+Invoked command in '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo -- -j20 -l20
+Invoking command in '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo
+Invoked command in '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo

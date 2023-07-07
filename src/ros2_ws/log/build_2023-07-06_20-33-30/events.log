@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000308] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000329] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000341] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000351] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000361] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000372] (ros2_shm_demo) JobQueued: {'identifier': 'ros2_shm_demo', 'dependencies': OrderedDict()}
+[0.000386] (ros2_shm_demo) JobStarted: {'identifier': 'ros2_shm_demo'}
+[0.006359] (ros2_shm_demo) JobProgress: {'identifier': 'ros2_shm_demo', 'progress': 'cmake'}
+[0.006468] (ros2_shm_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo', '-DCMAKE_INSTALL_PREFIX=/home/melmaphother/ROS2/ros2_ws/install/ros2_shm_demo'], 'cwd': '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo', 'env': OrderedDict([('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'melmaphother'), ('LC_TIME', 'zh_CN.UTF-8'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('OLDPWD', '/home/melmaphother/ROS2/ros2_ws/src'), ('HOME', '/home/melmaphother'), ('LESS', '-R'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ZSH', '/home/melmaphother/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'less'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '2244'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('P9K_TTY', 'old'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('https_proxy', 'http://127.0.0.1:7890/'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('LOGNAME', 'melmaphother'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/0'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'melmaphother'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('AUTOJUMP_ERROR_PATH', '/home/melmaphother/.local/share/autojump/errors.log'), ('_CE_CONDA', ''), ('PATH', '/home/melmaphother/miniconda3/condabin:/home/melmaphother/.autojump/bin:/home/melmaphother/.autojump/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/melmaphother-ThinkBook:@/tmp/.ICE-unix/2226,unix/melmaphother-ThinkBook:/tmp/.ICE-unix/2226'), ('PAPERSIZE', 'a4'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5b9b8f61_deaa_4a71_8110_b369f51c6a1a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KWRF71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CONDA_PYTHON_EXE', '/home/melmaphother/miniconda3/bin/python'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('P9K_SSH', '0'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('_P9K_TTY', '/dev/pts/0'), ('CONDA_EXE', '/home/melmaphother/miniconda3/bin/conda'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('AUTOJUMP_SOURCED', '1'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099344] (-) TimerEvent: {}
+[0.106321] (ros2_shm_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.184097] (ros2_shm_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.190664] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199450] (-) TimerEvent: {}
+[0.258629] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.264890] (ros2_shm_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.265098] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.265647] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.267914] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299547] (-) TimerEvent: {}
+[0.330474] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.336977] (ros2_shm_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.337166] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.337333] (ros2_shm_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.342758] (ros2_shm_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.342927] (ros2_shm_demo) StdoutLine: {'line': b'See also "/home/melmaphother/ROS2/ros2_ws/build/ros2_shm_demo/CMakeFiles/CMakeOutput.log".\n'}
+[0.342965] (ros2_shm_demo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.343008] (ros2_shm_demo) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.343039] (ros2_shm_demo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.343068] (ros2_shm_demo) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.343100] (ros2_shm_demo) StderrLine: {'line': b'\n'}
+[0.343128] (ros2_shm_demo) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.343155] (ros2_shm_demo) StderrLine: {'line': b'  any of the following names:\n'}
+[0.343183] (ros2_shm_demo) StderrLine: {'line': b'\n'}
+[0.343209] (ros2_shm_demo) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.343237] (ros2_shm_demo) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.343264] (ros2_shm_demo) StderrLine: {'line': b'\n'}
+[0.343292] (ros2_shm_demo) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.343319] (ros2_shm_demo) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.343346] (ros2_shm_demo) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.343376] (ros2_shm_demo) StderrLine: {'line': b'  has been installed.\n'}
+[0.343402] (ros2_shm_demo) StderrLine: {'line': b'\n'}
+[0.343428] (ros2_shm_demo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.345265] (ros2_shm_demo) CommandEnded: {'returncode': 1}
+[0.360983] (ros2_shm_demo) JobEnded: {'identifier': 'ros2_shm_demo', 'rc': 1}
+[0.371314] (-) EventReactorShutdown: {}

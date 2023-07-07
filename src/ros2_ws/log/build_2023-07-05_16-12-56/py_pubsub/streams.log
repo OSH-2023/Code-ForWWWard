@@ -1,0 +1,43 @@
+[0.370s] Invoking command in '/home/melmaphother/ROS2/ros2_ws/src/py_pubsub': PYTHONPATH=/home/melmaphother/ROS2/ros2_ws/build/py_pubsub/prefix_override:/home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build install --record /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.509s] running egg_info
+[0.509s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.509s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.509s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.510s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.510s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.511s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.511s] running build
+[0.511s] running build_py
+[0.511s] creating /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build
+[0.511s] creating /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib
+[0.511s] creating /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.511s] copying py_pubsub/publisher_member_function.py -> /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.511s] copying py_pubsub/__init__.py -> /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.511s] copying py_pubsub/subscriber_member_function.py -> /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.511s] running install
+[0.515s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.515s]   warnings.warn(
+[0.515s] running install_lib
+[0.516s] creating /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.516s] copying /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.516s] copying /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.516s] copying /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.516s] byte-compiling /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.516s] byte-compiling /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.516s] byte-compiling /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.516s] running install_data
+[0.517s] creating /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/share/ament_index
+[0.517s] creating /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.517s] creating /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.517s] copying resource/py_pubsub -> /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.517s] copying package.xml -> /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.517s] running install_egg_info
+[0.518s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.518s] running install_scripts
+[0.531s] Installing listener script to /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.531s] Installing talker script to /home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.531s] writing list of installed files to '/home/melmaphother/ROS2/ros2_ws/build/py_pubsub/install.log'
+[0.546s] Invoked command in '/home/melmaphother/ROS2/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/melmaphother/ROS2/ros2_ws/build/py_pubsub/prefix_override:/home/melmaphother/ROS2/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/build install --record /home/melmaphother/ROS2/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

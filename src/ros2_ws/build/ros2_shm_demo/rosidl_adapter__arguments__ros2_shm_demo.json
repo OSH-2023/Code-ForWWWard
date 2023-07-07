@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_shm_demo",
+  "non_idl_tuples": [
+    "/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo:msg/ShmTopic.msg"
+  ]
+}

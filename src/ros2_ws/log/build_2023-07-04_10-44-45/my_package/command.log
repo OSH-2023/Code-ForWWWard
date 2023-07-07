@@ -1,0 +1,6 @@
+Invoking command in '/home/melmaphother/ROS2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/melmaphother/ROS2/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/melmaphother/ROS2/ros2_ws/install/my_package
+Invoked command in '/home/melmaphother/ROS2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/melmaphother/ROS2/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/melmaphother/ROS2/ros2_ws/install/my_package
+Invoking command in '/home/melmaphother/ROS2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/melmaphother/ROS2/ros2_ws/build/my_package -- -j20 -l20
+Invoked command in '/home/melmaphother/ROS2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/melmaphother/ROS2/ros2_ws/build/my_package -- -j20 -l20
+Invoking command in '/home/melmaphother/ROS2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/melmaphother/ROS2/ros2_ws/build/my_package
+Invoked command in '/home/melmaphother/ROS2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/melmaphother/ROS2/ros2_ws/build/my_package

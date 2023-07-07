@@ -1,0 +1,29 @@
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:39 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:53 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:68 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/melmaphother/ROS2/ros2_ws/src/ros2_shm_demo/src/iox_subscriber.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Kiceoryx_utils/posix_wrapper/signal_handler.hpp: 没有那个文件或目录
+   19 | #include [01;31m[K"iceoryx_utils/posix_wrapper/signal_handler.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/iox_subscriber.dir/build.make:76：CMakeFiles/iox_subscriber.dir/src/iox_subscriber.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:654：CMakeFiles/iox_subscriber.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
