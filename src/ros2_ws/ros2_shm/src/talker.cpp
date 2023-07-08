@@ -1,17 +1,3 @@
-// Copyright 2021 Apex.AI, Inc.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 #include <chrono>
 #include <cstring>
 #include <memory>
@@ -24,6 +10,7 @@
 
 using namespace std::chrono_literals;
 
+// define the class
 class Talker : public rclcpp::Node {
 private:
   using Topic = ros2_shm_demo::msg::ShmTopic;
@@ -59,15 +46,8 @@ private:
   void populateLoanedMessage(rclcpp::LoanedMessage<Topic> &loanedMsg) {
     Topic &msg = loanedMsg.get();
 
-    // Create the data.
-    // In general this will not be constant.
-    // Ideally we would create it in place but the ROS API does not allow
-    // that. Therefore we need to copy it to the loaned message.
-
     std::string payload{"Hello World"};
 
-    // We can track a quasi dynamic (bounded) size like this to avoid
-    // copying more data than needed.
     msg.size = (uint8_t)std::min(payload.size(), (size_t)Topic::MAX_SIZE);
     msg.counter = m_count;
 
